@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+main ()
+{
+  char nome [50];
+  cin >> nome;
+  cout << "Hello world";
+}
