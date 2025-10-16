@@ -1,9 +1,11 @@
 #include <iostream>
 using namespace std;
 
-main ()
+int main ()
 {
+  cout<<"Qual è il tuo nome?"<<endl;
   char nome [50];
   cin >> nome;
-  cout << "Hello world";
+  cout << "Hello world, non sei molto sveglio "<<nome<<endl;
+  return 0;
 }
